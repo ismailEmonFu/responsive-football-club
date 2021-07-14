@@ -43,7 +43,7 @@ nav a{
 .top-banner{
     width: 100%;
     display: flex;
-    margin-top: 8%;
+    margin-top: 6%;
     margin-left: 10%;
 }
 .copa-title h1{
@@ -55,11 +55,11 @@ nav a{
     font-size: 1em;
 }
 .kick-ball{
-    margin-right: 20px;
+    margin-right: 140px;
 }
 .kick-ball img{
     width: 600px;
-    height: 450px;
+    height: 500px;
 }
 .grid-container{
     width: 100%;
@@ -73,7 +73,7 @@ nav a{
 }
 .grid-container div{
     width: 310px;
-    height: 600px;
+    height: 480px;
     background-color: azure;
     box-shadow: 0px 0px 40px 0px #00000026;
     margin: 20px 10px;
@@ -96,4 +96,145 @@ nav a{
 .footer-match img{
     width: 500px;
     height: 350px;
+}
+
+.more-fclub{
+    margin-bottom: 100px;
+}
+
+.fifa-image{
+    width: 20px;
+    height: 50px;
+}
+
+.more-fclub h1{
+    text-align-last: center;
+    font-size: 50px;
+    font-weight: 600;
+    color:indianred;
+}
+.more-fclub-video{
+    display: flex;
+    background-color: cornsilk;
+    margin-left: 60px;
+}
+
+.video1{
+    margin-right: 200px;
+}
+
+
+.related-websites{
+    width: 100%;
+    margin-left: 22%;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.related-websites h1{
+    font-size: 60px;
+    color: aqua;
+    margin-left: 7%;
+    font-family: 'Yomogi', cursive;
+}
+
+.related-content{
+    display: flex;
+    align-items: center;
+}
+
+.related-img-link img{
+    width: 150px;
+    height: 130px;
+}
+.related-anc-link {
+    text-decoration: none;
+    font-size: 60px;
+    font-weight: 700;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+    font-size: large;
+}
+footer i{
+    margin-right: 20px;
+    border: 1px solid azure;
+    background-color: cornflowerblue;
+    box-shadow: 0px 0px 40px 0px #00000026;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+.footer-icon{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 688px){
+
+    body{
+        width: 100%;
+    }
+    nav{
+        display: none;
+    }
+
+    .top-banner, .hightlight-banner,.more-fclub-video{
+        flex-direction: column;
+    }
+    .copa-title h1{
+        font-size: 41px;
+    }
+    .hightlight-text h1{
+        font-size: 30px;
+        flex: none;
+    }
+    .copa-title, .hightlight-text{
+        margin-bottom: 50px;
+    }
+    .kick-ball img{
+        width: 330px;
+        height: 260px;
+    }
+    .grid-container, .more-fclub-video{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .more-fclub h1{
+        font-size: 30px;
+    }
+    .related-websites h1{
+        font-size: 30px;
+    }
+    .more-fclub-video iframe{
+        width: 300px;
+        height: 200px;
+        margin-top: 30px;
+    }
+
+    .related-img-link img{
+        width: 75px;
+        height: 60px;        
+    } 
+
+    .related-anc-link{
+        font-size: 20px;
+    }
+
+    .footer-match img{
+        width: 320px;
+        height: 240px;
+    }
+
+    footer img{
+        width: 80%;
+        height: 80px;
+    }
+
 }
