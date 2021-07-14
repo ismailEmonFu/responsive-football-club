@@ -37,6 +37,17 @@ nav a{
     padding: 5px 10px;
     border-radius: 1px;
 }
+
+.top-banner:hover h1{
+    transform: scale(1.5) rotate(360deg);
+    transition: transform 2s ease-in-out;
+}
+
+.top-banner:hover .kick-ball{
+    transform: scale(1.5) rotate(-360deg);
+    transition: transform 2s ease-in-out;
+}
+
 .half-width{
     width: 50%;
 }
