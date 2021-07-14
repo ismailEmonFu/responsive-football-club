@@ -14,6 +14,7 @@ header{
     margin-bottom: 40px;
 }
 
+/* Navigation bar  */
 nav{
     display: flex;
     justify-content: space-between;
@@ -29,6 +30,8 @@ nav a{
     font-size: 1em;
     color: antiquewhite;
 }
+
+/* Button anchor design  */
 #pink-button
 {
     text-decoration: none;
@@ -38,6 +41,7 @@ nav a{
     border-radius: 1px;
 }
 
+/* Top banner */
 .top-banner:hover h1{
     transform: scale(1.5) rotate(360deg);
     transition: transform 2s ease-in-out;
@@ -57,6 +61,8 @@ nav a{
     margin-top: 6%;
     margin-left: 10%;
 }
+
+/* Copa title */
 .copa-title h1{
     font-size: 64px;
     color: blanchedalmond;
@@ -72,6 +78,8 @@ nav a{
     width: 600px;
     height: 500px;
 }
+
+/* Grid Container */
 .grid-container{
     width: 100%;
     display: grid;
@@ -91,6 +99,8 @@ nav a{
     padding: 15px;
     border: 3px solid seashell;
 }
+
+/* Highlighted Section */
 .hightlight-banner{
         width: 100%;
         display: flex;
@@ -134,7 +144,7 @@ nav a{
     margin-right: 200px;
 }
 
-
+/* Related Website Section */
 .related-websites{
     width: 100%;
     margin-left: 22%;
@@ -165,6 +175,8 @@ nav a{
     align-items: center;
 }
 
+
+/* Footer Part Done */
 footer{
     display: flex;
     flex-direction: column;
